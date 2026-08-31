@@ -1,3 +1,4 @@
+#This code snippet takes a phone number as input and converts each digit into its corresponding word representation using a dictionary mapping. If a character in the input is not a digit, it will be replaced with an exclamation mark ("!"). The final output is a string of words representing the digits in the phone number.
 phone = input("Phone")
 digits_mapping  = {
     "1": "One",
